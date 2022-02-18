@@ -1,0 +1,144 @@
+.split {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: left;
+}
+  
+.right {
+    right: 0;
+    background-color: rgb(209, 205, 205);
+    margin-right: 15px;
+  }
+
+.left {
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 14px;
+}
+
+.pp{    /* Profile Picture % */
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    width: 220px; /* you can use % */
+}
+
+.name{  /* Vyom Verma % */
+    padding-top: 1px;
+    padding-left: 30px;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    font-family: monospace, sans-serif; 
+    color: rgb(87, 86, 86);
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.designation{
+    font-family: sans-serif;
+    color: rgb(87, 86, 86);
+    padding-left: 30px;
+    font-size: 28px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+#date{
+    font-family: sans-serif;
+    padding-left: 30px;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+#icon{
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+li:first-of-type{
+    margin-top: 30px;
+}
+
+li{
+    font-family: sans-serif;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+li:last-of-type{
+    margin-bottom: 40px;
+}
+
+.fa-li{
+    padding-left: 13px; 
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(20, 54, 77);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(20, 54, 77);
+ }
+
+.heading1{
+    font-family: monospace;
+    margin-left: 50px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: rgb(162, 163, 163);
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+.heading2{
+    font-family: monospace;
+    margin-left: 50px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: rgb(24, 47, 82);
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+table{
+    padding-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    width: auto;
+  }
+
+td:nth-child(1){
+    margin-right: 80px;
+}
+
+.normal-list{
+    margin-left: 50px;
+}
+
+#id{
+    margin-left: -20px
+}
+
+#para-left{
+    font-size: 16px;
+    margin-left: 70px;
+}
